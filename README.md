@@ -46,12 +46,12 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-db036000-a425-11eb-892c-170722301031.gif" width="100%" alt="Separator GIF" />
 
-### 📊 GitHub Contribution Graph
-
-<div align="center">
-  <!-- Dynamic Contribution Trophy / Grid Showcase -->
-  <img src="https://github-profile-trophy.vercel.app/?username=zaxxinfinity&theme=onedark&column=4&margin-w=15" alt="GitHub Trophies" />
-</div>
+### 🌐 Connect with Me
+<p>
+  <a href="https://github.com/zaxxinfinity">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+</p>
 
 <br />
 
