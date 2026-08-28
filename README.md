@@ -1,16 +1,16 @@
 <div align="center">
 
   <!-- Animated Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,2,30&height=220&section=header&text=ZynnDeveloper&fontSize=70&fontColor=fff&animation=twinkling" width="100%" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,2,30&height=200&section=header&text=ZynnDeveloper&fontSize=65&fontColor=fff&animation=twinkling" width="100%" alt="Header Banner" />
 
-  <!-- Animated Typing Text -->
-  <a href="https://readme-typing-svg.demolab.com">
+  <!-- Animated Typing SVG -->
+  <a href="https://github.com/zaxxinfinity">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A855F7&center=true&vCenter=true&width=500&lines=Automation+Developer;Web+Development+Specialist;Creative+Media+Creator" alt="Typing SVG" />
   </a>
 
   <br />
 
-  <!-- Profile Metrics -->
+  <!-- Profile Views counter -->
   <p align="center">
     <img src="https://komarev.com/ghpvc/?username=zaxxinfinity&label=PROFILE+VIEWS&style=for-the-badge&color=8A2BE2" alt="Profile Views" />
   </p>
@@ -46,20 +46,17 @@
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-db036000-a425-11eb-892c-170722301031.gif" width="100%" alt="Separator GIF" />
 
-### 📊 GitHub Activity & Stats
+### 📊 GitHub Activity & Metrics
 
 <div align="center">
-  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=zaxxinfinity&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=true" alt="Zynn's Stats" />
-  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zaxxinfinity&layout=compact&theme=dark&hide_border=true" alt="Top Languages" />
+  <!-- Ultra-stable GitHub Stats card -->
+  <img height="165em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=zaxxinfinity&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub Stats" />
+  
+  <!-- Top Languages card -->
+  <img height="165em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=zaxxinfinity&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </div>
 
 <br />
 
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=zaxxinfinity&theme=dark&hide_border=true" alt="GitHub Streak" />
-</div>
-
-<br />
-
-<!-- Animated Footer Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,2,30&height=120&section=footer" width="100%" alt="Footer Banner" />
+<!-- Animated Footer -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,2,30&height=100&section=footer" width="100%" alt="Footer Banner" />
