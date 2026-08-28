@@ -10,7 +10,7 @@
 
   <br />
 
-  <!-- Profile Views counter -->
+  <!-- Profile Views Counter -->
   <p align="center">
     <img src="https://komarev.com/ghpvc/?username=zaxxinfinity&label=PROFILE+VIEWS&style=for-the-badge&color=8A2BE2" alt="Profile Views" />
   </p>
@@ -49,14 +49,11 @@
 ### 📊 GitHub Activity & Metrics
 
 <div align="center">
-  <!-- Ultra-stable GitHub Stats card -->
-  <img height="165em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=zaxxinfinity&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub Stats" />
-  
-  <!-- Top Languages card -->
-  <img height="165em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=zaxxinfinity&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+  <!-- Interactive Activity Graph -->
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=zaxxinfinity&theme=tokyo-night&hide_border=true" alt="Activity Graph" />
 </div>
 
 <br />
 
-<!-- Animated Footer -->
+<!-- Animated Footer Banner -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,2,30&height=100&section=footer" width="100%" alt="Footer Banner" />
