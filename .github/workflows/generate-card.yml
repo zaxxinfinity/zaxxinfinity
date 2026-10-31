@@ -1,14 +1,15 @@
-name: Generate animated profile card
+name: Generate GitHub profile assets
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "17 0 * * *"
   workflow_dispatch:
   push:
     branches:
       - main
     paths-ignore:
       - 'assets/profile.svg'
+      - 'assets/github-stats.svg'
 
 permissions:
   contents: write
@@ -16,30 +17,32 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 10
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '22'
-
       - name: Install dependencies
         run: npm install
-
-      - name: Generate profile card
+      - name: Generate animated profile card
         env:
           GITHUB_LOGIN: zaxxinfinity
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OUT_PATH: assets/profile.svg
         run: npm run generate
-
-      - name: Commit and push if changed
+      - name: Generate GitHub statistics SVG
+        env:
+          GITHUB_LOGIN: zaxxinfinity
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          STATS_OUT_PATH: assets/github-stats.svg
+        run: npm run generate:stats
+      - name: Commit generated assets
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/profile.svg
-          git diff --staged --quiet || git commit -m "chore: refresh profile card"
+          git add assets/profile.svg assets/github-stats.svg
+          git diff --staged --quiet || git commit -m "chore: refresh profile assets"
           git push

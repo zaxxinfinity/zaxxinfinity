@@ -39,7 +39,7 @@ const PROFILE_FIELDS: [string, string][] = [
   ['Role', 'Web Developer'],
   ['Focus', 'Automation, Bots, Media Editing'],
   ['Location', 'Japan'],
-  ['Stack.Lang', 'TypeScript, JavaScript, HTML/CSS'],
+  ['Stack.Lang', 'JavaScript, TypeScript'],
   ['Stack.Bot', 'Node.js, Baileys, PostgreSQL'],
   ['Stack.Ops', 'Linux VPS, PM2, Vercel'],
   ['Contact.GitHub', `github.com/${LOGIN}`],

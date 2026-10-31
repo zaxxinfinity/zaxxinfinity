@@ -1,80 +1,88 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/zaxxinfinity/zaxxinfinity/refs/heads/main/assets/profile.svg" alt="animated profile card with a 2D runner game" width="100%" />
+  <img src="https://raw.githubusercontent.com/zaxxinfinity/zaxxinfinity/main/assets/profile.svg" alt="Animated pixel-art developer profile card" width="100%" />
 </p>
 
 <p align="center">
-  <b>Web Developer | Automation Developer | Bot Developer</b><br>
-  Based in Japan
+  <img src="https://raw.githubusercontent.com/zaxxinfinity/zaxxinfinity/main/assets/intro.svg" alt="Developer introduction" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://zynnshimaa.vercel.app/"><img src="https://img.shields.io/badge/Website-zynnshimaa.vercel.app-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Website"></a>
-  <img src="https://komarev.com/ghpvc/?username=zaxxinfinity&style=for-the-badge&color=blueviolet&label=PROFILE+VIEWS" alt="Profile views">
+  <a href="https://github.com/zaxxinfinity"><img src="https://img.shields.io/badge/GitHub-zaxxinfinity-161b22?style=flat-square&logo=github" alt="GitHub"></a>
+  <a href="https://zynnshimaa.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-161b22?style=flat-square&logo=vercel" alt="Portfolio"></a>
+  <img src="https://komarev.com/ghpvc/?username=zaxxinfinity&style=flat-square&color=5dc9f2&label=PROFILE+VIEWS" alt="Profile views">
 </p>
 
 ---
 
-## About Me
+## `01` — About
 
-Passionate about crafting seamless web experiences, engineering automated bots, and editing digital media.
+I build web experiences and automation tools, with a focus on practical solutions that are simple to use and maintain. Most of my work revolves around **JavaScript/TypeScript**, **WhatsApp bot development**, and **Linux-based deployment**.
 
-- Building WhatsApp bots with Node.js and TypeScript
-- Creating websites and deploying them on Vercel
-- Automating repetitive work with scripts and APIs
-- Running bots on a VPS with PostgreSQL and PM2
+- Developing WhatsApp bots and multi-device automation
+- Building and deploying web projects with Vercel
+- Connecting APIs, databases, and backend services
+- Managing Node.js applications on Linux VPS with PM2
 
----
+## `02` — Tech Stack
 
-## Tech Stack
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Programming Languages</strong><br><br>
+      <img src="https://skillicons.dev/icons?i=ts,js" alt="TypeScript and JavaScript"><br>
+      <sub>JavaScript · TypeScript</sub><br><br>
+      <strong>Markup & Styling</strong><br><br>
+      <img src="https://skillicons.dev/icons?i=html,css" alt="HTML5 and CSS3"><br>
+      <sub>HTML5 · CSS3</sub>
+    </td>
+    <td width="50%" valign="top">
+      <strong>Runtime, Backend & Automation</strong><br><br>
+      <img src="https://skillicons.dev/icons?i=nodejs,postgres,linux,bash" alt="Node.js, PostgreSQL, Linux and Bash"><br>
+      <sub>Node.js · PostgreSQL · Baileys · PM2 · REST APIs</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <strong>Tools & Deployment</strong><br><br>
+      <img src="https://skillicons.dev/icons?i=git,github,vercel,vscode" alt="Git, GitHub, Vercel and VS Code">
+    </td>
+    <td width="50%" valign="top">
+      <strong>Areas of Interest</strong><br><br>
+      <sub>Bot engineering · API integration · Web development · Linux server operations</sub>
+    </td>
+  </tr>
+</table>
 
-### Programming & Web Development
+## `03` — Selected Work
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/zaxxinfinity/tourl"><strong>tourl ↗</strong></a><br>
+      <sub>File upload utility that converts files into shareable links.</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://zynnshimaa.vercel.app/"><strong>Portfolio ↗</strong></a><br>
+      <sub>Personal website showcasing development and design work.</sub>
+    </td>
+  </tr>
+</table>
 
-### Automation & Bots
-
-![WhatsApp](https://img.shields.io/badge/WhatsApp_Bot-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![PM2](https://img.shields.io/badge/PM2-2B037A?style=for-the-badge&logo=pm2&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux_VPS-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
-### Tools & Platforms
-
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
----
-
-## Featured Projects
-
-| Project | Description |
-|---|---|
-| [tourl](https://github.com/zaxxinfinity/tourl) | File upload tool that turns files into shareable links |
-| [Portfolio](https://zynnshimaa.vercel.app/) | My personal website |
-
----
-
-## GitHub Stats
+## `04` — GitHub Overview
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=zaxxinfinity&show_icons=true&theme=radical&hide_border=true" alt="GitHub stats">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zaxxinfinity&layout=compact&theme=radical&hide_border=true" alt="Top languages">
+  <img src="https://raw.githubusercontent.com/zaxxinfinity/zaxxinfinity/main/assets/github-stats.svg" alt="Automatically generated GitHub statistics" width="100%" />
 </p>
-
----
-
-## Connect with Me
 
 <p align="center">
-  <a href="https://zynnshimaa.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"></a>
-  <a href="https://github.com/zaxxinfinity"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <sub>Statistics are generated from the GitHub API by GitHub Actions. Updated daily.</sub>
 </p>
 
-<p align="center"><i>Thanks for stopping by!</i></p>
+## `05` — Contact
 
-<p align="center"><sub>Card idea inspired by <a href="https://github.com/pangeran-droid/ascii-profile-card">pangeran-droid/ascii-profile-card</a> (MIT)</sub></p>
+<p align="center">
+  <a href="https://github.com/zaxxinfinity"><img src="https://img.shields.io/badge/GitHub-Profile-161b22?style=flat-square&logo=github" alt="GitHub"></a>
+  <a href="https://zynnshimaa.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Website-161b22?style=flat-square&logo=vercel" alt="Portfolio"></a>
+</p>
+
+<p align="center"><sub>Designed with SVG, CSS animation, and a little pixel-art inspiration.</sub></p>

@@ -6,7 +6,8 @@
   "description": "Animated terminal profile card with a 2D runner game scene",
   "scripts": {
     "generate": "tsx scripts/generate-card.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "generate:stats": "tsx scripts/generate-stats.ts"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",

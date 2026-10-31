@@ -10,7 +10,7 @@ Animated terminal-style profile card with a 2D runner game scene. The card is on
 3. Open `.github/workflows/generate-card.yml` and make sure `GITHUB_LOGIN` is your username.
 4. In the repository settings, open Actions, General, Workflow permissions and select
    "Read and write permissions".
-5. Push to `main`. The workflow regenerates `assets/profile.svg` and commits it back.
+5. Push to `main`. The workflow regenerates `assets/profile.svg` and `assets/github-stats.svg`, then commits both files back.
    It also runs every day at 00:00 UTC and can be started manually from the Actions tab.
 
 The card embeds in README.md through `raw.githubusercontent.com`, not a `github.com/.../blob/...` link.
