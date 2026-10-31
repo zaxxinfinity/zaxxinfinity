@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/zaxxinfinity"><img src="https://img.shields.io/badge/GitHub-zaxxinfinity-161b22?style=flat-square&logo=github" alt="GitHub"></a>
-  <a href="https://zynnshimaa.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Visit-161b22?style=flat-square&logo=vercel" alt="Portfolio"></a>
+  <a href="https://zynnshima.web.id/"><img src="https://img.shields.io/badge/Portfolio-Visit-161b22?style=flat-square&logo=vercel" alt="Portfolio"></a>
   <img src="https://komarev.com/ghpvc/?username=zaxxinfinity&style=flat-square&color=5dc9f2&label=PROFILE+VIEWS" alt="Profile views">
 </p>
 
@@ -62,7 +62,7 @@ I build web experiences and automation tools, with a focus on practical solution
       <sub>File upload utility that converts files into shareable links.</sub>
     </td>
     <td width="50%" valign="top">
-      <a href="https://zynnshimaa.vercel.app/"><strong>Portfolio ↗</strong></a><br>
+      <a href="https://zynnshima.web.id/"><strong>Portfolio ↗</strong></a><br>
       <sub>Personal website showcasing development and design work.</sub>
     </td>
   </tr>
@@ -82,7 +82,7 @@ I build web experiences and automation tools, with a focus on practical solution
 
 <p align="center">
   <a href="https://github.com/zaxxinfinity"><img src="https://img.shields.io/badge/GitHub-Profile-161b22?style=flat-square&logo=github" alt="GitHub"></a>
-  <a href="https://zynnshimaa.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Website-161b22?style=flat-square&logo=vercel" alt="Portfolio"></a>
+  <a href="https://zynnshima.web.id/"><img src="https://img.shields.io/badge/Portfolio-Website-161b22?style=flat-square&logo=vercel" alt="Portfolio"></a>
 </p>
 
 <p align="center"><sub>Designed with SVG, CSS animation, and a little pixel-art inspiration.</sub></p>
