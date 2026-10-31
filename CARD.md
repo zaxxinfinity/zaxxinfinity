@@ -1,72 +1,33 @@
-# Profile Card
+# Zaxxinfinity GitHub Profile
 
-Animated terminal-style profile card with a 2D runner game scene. The card is one self-contained SVG
-(`assets/profile.svg`) plus an animated dashboard (`assets/dashboard.svg`) and animated intro/stats SVGs. The visuals use SVG/CSS/SMIL; no browser JavaScript is required.
+A compact terminal-style GitHub profile with a pixel-art runner card, a restrained developer dashboard, and GitHub statistics generated from the GitHub API.
 
 ## Setup
 
-1. Create a repository named exactly like your username (`zaxxinfinity/zaxxinfinity`).
-2. Upload everything in this folder, keeping the structure.
-3. Open `.github/workflows/generate-card.yml` and make sure `GITHUB_LOGIN` is your username.
-4. In the repository settings, open Actions, General, Workflow permissions and select
-   "Read and write permissions".
-5. Push to `main`. The workflow regenerates `assets/profile.svg` and `assets/github-stats.svg`, then commits both files back.
-   It also runs every day at 00:00 UTC and can be started manually from the Actions tab.
+1. Keep this project in the public repository named `zaxxinfinity`.
+2. Keep the folder structure unchanged when uploading.
+3. In repository Settings → Actions → General → Workflow permissions, enable **Read and write permissions**.
+4. The workflow uses the built-in `GITHUB_TOKEN` and refreshes the profile card and statistics daily. It can also be run manually from the Actions tab.
 
-The card embeds in README.md through `raw.githubusercontent.com`, not a `github.com/.../blob/...` link.
-
-## Run locally
+## Generate locally
 
 ```bash
 npm install
 GITHUB_LOGIN=zaxxinfinity GITHUB_TOKEN=your_token npm run generate
+GITHUB_LOGIN=zaxxinfinity GITHUB_TOKEN=your_token npm run generate:stats
 ```
 
-Without `GITHUB_TOKEN` the GitHub API allows only 60 requests per hour, and stats fall back to `N/A`
-when a request fails. `CARD_STATS_JSON` can supply stats manually:
+A token is recommended for higher GitHub API rate limits. Never commit a personal access token to this repository.
 
-```bash
-CARD_STATS_JSON='{"repos":"2","stars":"0","followers":"0","following":"0","topLanguage":"HTML"}' npm run generate
-```
+## Files
 
-## Environment variables
+- `assets/profile.svg` — original pixel-art terminal/game profile card.
+- `assets/dashboard.svg` — simple terminal-style developer dashboard.
+- `assets/github-stats.svg` — generated GitHub statistics.
+- `scripts/generate-card.ts` — generates the profile card.
+- `scripts/generate-stats.ts` — fetches public GitHub account and repository statistics.
+- `.github/workflows/generate-card.yml` — scheduled and manual update workflow.
 
-| Variable | Required | Description |
-|---|---|---|
-| `GITHUB_LOGIN` | No | GitHub username used for stats (default `zaxxinfinity`) |
-| `GITHUB_TOKEN` | Recommended | Raises the API rate limit |
-| `OUT_PATH` | No | Output SVG path (default `assets/profile.svg`) |
-| `CARD_STATS_JSON` | No | Skip the API and use these stats |
+## Personal details
 
-## Customize
-
-Everything is a plain constant at the top of `scripts/generate-card.ts`.
-
-| What to change | Constant |
-|---|---|
-| Info rows (label and value) | `PROFILE_FIELDS` |
-| Commands typed in the prompt | `PROMPT_COMMANDS` |
-| Typing and deleting speed | `PROMPT_TYPE_SPEED`, `PROMPT_DELETE_SPEED` |
-| Window, header, text and swatch colors | `BG_COLOR`, `HEADER_COLOR`, `ACCENT`, `VALUE_COLOR`, `PALETTE` |
-| Game loop length in seconds | `LOOP` |
-
-The game scene is a looping runner: the hero jumps over a slime and spikes, collects coins, and the
-coin counter in the top left follows the pickups. Jump timing is calculated from `LOOP`, `SPAWN_X`,
-`TRAVEL` and `HERO_X`, so change them together if you edit the scene.
-
-## Structure
-
-```
-.
-├── README.md
-├── CARD.md
-├── package.json
-├── tsconfig.json
-├── assets/
-│   └── profile.svg
-├── scripts/
-│   └── generate-card.ts
-└── .github/
-    └── workflows/
-        └── generate-card.yml
-```
+Update `PROFILE_FIELDS` in `scripts/generate-card.ts` if your profile information changes. The portfolio address is `https://zynnshima.web.id`.

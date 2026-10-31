@@ -1,14 +1,10 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/zaxxinfinity/zaxxinfinity/main/assets/profile.svg" alt="Animated pixel-art developer profile card" width="100%" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/zaxxinfinity/zaxxinfinity/main/assets/intro.svg" alt="Animated developer introduction" width="100%" />
+  <img src="https://raw.githubusercontent.com/zaxxinfinity/zaxxinfinity/main/assets/profile.svg" alt="Pixel-art terminal profile card" width="100%" />
 </p>
 
 <p align="center">
   <a href="https://github.com/zaxxinfinity"><img src="https://img.shields.io/badge/GitHub-zaxxinfinity-161b22?style=flat-square&logo=github" alt="GitHub"></a>
-  <a href="https://zynnshima.web.id"><img src="https://img.shields.io/badge/Portfolio-zynnshima.web.id-161b22?style=flat-square&logo=vercel" alt="Portfolio"></a>
+  <a href="https://zynnshima.web.id"><img src="https://img.shields.io/badge/Website-zynnshima.web.id-161b22?style=flat-square&logo=vercel" alt="Website"></a>
   <img src="https://komarev.com/ghpvc/?username=zaxxinfinity&style=flat-square&color=5dc9f2&label=PROFILE+VIEWS" alt="Profile views">
 </p>
 
@@ -23,10 +19,10 @@ I build web experiences and automation tools, with a focus on practical solution
 - Connecting APIs, databases, and backend services
 - Managing Node.js applications on Linux VPS with PM2
 
-## `02` — Animated Developer Dashboard
+## `02` — Developer Dashboard
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/zaxxinfinity/zaxxinfinity/main/assets/dashboard.svg" alt="Animated technologies, projects and contact dashboard" width="100%" />
+  <img src="https://raw.githubusercontent.com/zaxxinfinity/zaxxinfinity/main/assets/dashboard.svg" alt="Simple terminal-style developer dashboard" width="100%" />
 </p>
 
 ## `03` — GitHub Overview
@@ -39,5 +35,5 @@ I build web experiences and automation tools, with a focus on practical solution
 
 <p align="center">
   <a href="https://github.com/zaxxinfinity">GitHub</a> ·
-  <a href="https://zynnshima.web.id">Portfolio</a>
+  <a href="https://zynnshima.web.id">Website</a>
 </p>
