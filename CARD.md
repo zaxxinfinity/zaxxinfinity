@@ -1,7 +1,7 @@
 # Profile Card
 
 Animated terminal-style profile card with a 2D runner game scene. The card is one self-contained SVG
-(`assets/profile.svg`) made with CSS and SMIL animation only, no JavaScript.
+(`assets/profile.svg`) plus an animated dashboard (`assets/dashboard.svg`) and animated intro/stats SVGs. The visuals use SVG/CSS/SMIL; no browser JavaScript is required.
 
 ## Setup
 

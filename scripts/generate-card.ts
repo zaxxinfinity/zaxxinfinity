@@ -43,7 +43,7 @@ const PROFILE_FIELDS: [string, string][] = [
   ['Stack.Bot', 'Node.js, Baileys, PostgreSQL'],
   ['Stack.Ops', 'Linux VPS, PM2, Vercel'],
   ['Contact.GitHub', `github.com/${LOGIN}`],
-  ['Contact.Web', 'zynnshimaa.vercel.app']
+  ['Contact.Web', 'zynnshima.web.id']
 ]
 
 const PROMPT_COMMANDS = ['web developer', 'automation developer', 'bot developer']
